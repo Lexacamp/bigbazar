@@ -26,7 +26,7 @@
                             <?php if(!Yii::$app->user->isGuest) : ?>
                                 <li><a href="<?=\yii\helpers\Url::to(['/site/logout'])?>"><i class="fa fa-user"></i>Выход</a></li>
                             <?php endif?>
-                            <li><a href="<?=\yii\helpers\Url::toRoute(['/cabinet/contact'])?>"><i class="fa fa-plus"></i>Войти</a></li>
+                            <li><a href="<?=\yii\helpers\Url::toRoute(['/cabinet/contact'])?>"><i class="fa fa-plus"></i>ПОДАТЬ ОБЪЯВЛЕНИЕ</a></li>
                         </ul>
                     </div>
                 </div>
