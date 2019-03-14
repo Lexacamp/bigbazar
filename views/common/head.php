@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="logo pull-left">
-                        <a href="<?=\yii\helpers\Url::to(['category/index'])?>"><?=\yii\bootstrap\Html::img(["/web/public/images/home/logo.jpg",['alt'=>'СтройКомДизайн']])?></a>
+                        <a href="<?=\yii\helpers\Url::to(['category/index'])?>"><?=\yii\bootstrap\Html::img(["/web/public/images/home/logo.jpg",['alt'=>'BigBaZar']])?></a>
                     </div>
                 </div>
                 <div class="col-sm-8">
