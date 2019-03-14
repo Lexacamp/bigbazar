@@ -51,12 +51,6 @@
                                     <li><a href="#"><?=\app\components\MenuWidget::widget()?></a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="#">Услуги<i class="fa fa-angle-down"></i></a>
-                                <ul role="menu" class="sub-menu">
-                                    <li><a href="#"><?=\app\components\ServiceWidget::widget()?></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="<?=\yii\helpers\Url::to(['/contact/index'])?>">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
