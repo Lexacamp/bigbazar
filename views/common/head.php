@@ -44,22 +44,23 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
+				</div>
 					<div class="col-sm-3">
 						<div class="search_box pull-right">
 							<input type="text" placeholder="Search"/>
 						</div>
 					</div>
-					<br>
-					<br>
-                    <div class="mainmenu pull-left">
-                        <ul class="nav navbar-nav collapse navbar-collapse">
-                            <li class="dropdown"><a href="#">Продукты<i class="fa fa-angle-down"></i></a>
-                                <ul role="menu" class="sub-menu">
-                                    <li><a href="#"><?=\app\components\MenuWidget::widget()?></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+					<div class="col-sm-9">
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li class="dropdown"><a href="#">Продукты<i class="fa fa-angle-down"></i></a>
+									<ul role="menu" class="sub-menu">
+										<li><a href="#"><?=\app\components\MenuWidget::widget()?></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
                 </div>
             </div>
         </div>
