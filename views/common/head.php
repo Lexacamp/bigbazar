@@ -23,7 +23,6 @@
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#" onclick="return getCart()"><i class="fa fa-shopping-cart" "></i>Корзина</a></li>
                             <?php if(!Yii::$app->user->isGuest) : ?>
                                 <li><a href="<?=\yii\helpers\Url::to(['/site/logout'])?>"><i class="fa fa-user"></i>Выход</a></li>
                             <?php endif?>
