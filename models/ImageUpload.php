@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: almuko
- * Date: 11.07.2017
- * Time: 15:17
- */
-
 namespace app\models;
 
 
@@ -56,8 +49,4 @@ class ImageUpload extends Model{
         $this->image->saveAs($this->getFolder().$filename);
         return $filename;
     }
-
-
-
-
 } 
