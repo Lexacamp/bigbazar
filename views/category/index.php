@@ -38,7 +38,7 @@ use yii\helpers\Html;
 										}
 									?>
 				</a></p>
-                                    <a href="<?=Url::to(['cart/add','id'=>$product->id])?>" data-id="<?=$product->id?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                    <a href="<?=Url::to(['cart/add','id'=>$product->id])?>" data-id="<?=$product->id?>" class="btn btn-default add-to-cart"><i class="fa fa-plus-circle"></i>Запомнить</a>
                                 </div>
                             </div>
                         </div>
