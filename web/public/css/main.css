@@ -197,14 +197,16 @@ a#scrollUp i{
 
 
 .shop-menu ul li a {
-  /*background: #262676;*/
-  color: #000000;
+  background: #ff8300;
+  color: #f7f5f8;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: 300;
-  padding:0;
+  font-weight: 600;
+  padding:7px;
   padding-right: 0;
   margin-top: 10px;
+  height:30px;
+  width: 190px;
 }
 
 
