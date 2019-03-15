@@ -21,8 +21,8 @@ use yii\helpers\Url;
 									<label>Количество:</label>
 									<input type="text" value="1" id="qty" />
 									<a href="" data-id="<?=$product->id?>" class="btn btn-default add-to-cart cart">
-                                        <i class="fa fa-shopping-cart"></i>
-                                        В корзину
+                                        <i class="fa fa-plus-circle"></i>
+                                        Запомнить
                                     </a>
 								</span>
             <p><?=$product->content?></p>
