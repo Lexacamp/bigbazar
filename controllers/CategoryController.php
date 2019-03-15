@@ -18,7 +18,7 @@ use Yii;
 
 class CategoryController extends AppController{
     public function actionIndex(){
-        $this->setMeta('BigBaZar');
+        $this->setMeta('BIGBAZAR');
         $query = Product::find();
         $count = $query->count();
         $pages = new Pagination(['totalCount'=>$count, 'pageSize'=>66]);
@@ -34,7 +34,7 @@ class CategoryController extends AppController{
         $pages = new Pagination(['totalCount'=>$count, 'pageSize'=>8   ]);
         $products = $query->offset($pages->offset)->limit($pages->limit)->all();
         $category =Category::findOne($id);
-        $this->setMeta('BigBaZar | '.$category->name,$category->keywords,$category->description );
+        $this->setMeta('BIGBAZAR | '.$category->name,$category->keywords,$category->description );
 
 
 
