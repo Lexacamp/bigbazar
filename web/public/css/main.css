@@ -54,8 +54,8 @@ a#scrollUp {
   padding: 5px 10px;
   background: #FE980F;
   color: #FFF;
-  -webkit-animation: bounce 2s ease infinite;
-  animation: bounce 2s ease infinite;
+  -webkit-animation: bounce 3s ease infinite;
+  animation: bounce 3s ease infinite;
 }
 
 a#scrollUp i{
@@ -1184,7 +1184,7 @@ p{
 }
 
 .pagination  li  a:hover{
-	background:#FE980F;
+	background:#ff0000;
 	color:#fff;
 }
 
