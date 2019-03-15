@@ -210,7 +210,7 @@ a#scrollUp i{
   font-weight: 600;
   padding:7px;
   padding-right: 0;
-  margin-top: 40px;
+  margin-top: 10px;
   height:30px;
   width: 190px;
 }
@@ -1182,8 +1182,8 @@ p{
 }
 
 .pagination  li  a:hover{
-	background:#ff0000;
-	color:#00b25b;
+	background:#00b25b;
+	color:#f7f5f8;
 }
 
 
