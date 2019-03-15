@@ -19,7 +19,7 @@ use yii\helpers\Html;
                                             <?=Html::img($service->getImage(),['height' => 300])?>
                                             <!--                        <h2>--><?//=$product->price?><!--</h2>-->
                                             <p><a href="<?=Url::toRoute(['/service/view','id'=>$service->id])?>"><?=$service->name?> (подробнее...)</a></p>
-                                            <a href="<?=Url::to(['cart/add','id'=>$service->id])?>" data-id="<?=$service->id?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
+                                            <a href="<?=Url::to(['cart/add','id'=>$service->id])?>" data-id="<?=$service->id?>" class="btn btn-default add-to-cart"><i class="fa fa-plus-circle"></i>Запомнить</a>
                                         </div>
                                     </div>
                                 </div>

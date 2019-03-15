@@ -26,7 +26,6 @@ use yii\widgets\ActiveForm;
                 <tr>
                     <th>Фото</th>
                     <th>Наименование</th>
-                    <th>Кол-во</th>
                     <th>Цена</th>
                     <th>Сумма</th>
                     <th><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></th>
@@ -35,9 +34,8 @@ use yii\widgets\ActiveForm;
                 <tbody>
                 <?php foreach($session['cart'] as $id=>$item):?>
                     <tr>
-                        <td><?=\yii\bootstrap\Html::img("/web/public/images/products/{$item['image']}",['alt'=>$item['name'],'height'=>30])?></td>
+                        <td><?=\yii\bootstrap\Html::img("/web/public/images/products/{$item['image']}",['alt'=>$item['name'],'height'=>50])?></td>
                         <td><a href="<?=Url::to(['product/view','id'=>$id])?>"><?=$item['name']?></a></td>
-                        <td><?=$item['qty']?></td>
                         <td><?=$item['price']?></td>
                         <td><?=$item['qty']*$item['price']?></td>
                         <td><span data-id="<?=$id?>" class="glyphicon glyphicon-remove text-danger del-item" aria-hidden="true"></span></td>
@@ -64,6 +62,6 @@ use yii\widgets\ActiveForm;
             <?=Html::submitButton('Заказать',['class'=>'btn btn-success'])?>
         <?php ActiveForm::end() ?>
     <?php else : ?>
-        <h3>Корзина пуста</h3>
+        <h3>Выбранных нет</h3>
     <?php endif?>
 </div>

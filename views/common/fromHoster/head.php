@@ -29,14 +29,14 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="logo pull-left">
-                        <a href="<?=\yii\helpers\Url::home()?>"><?=\yii\bootstrap\Html::img(["/web/public/images/home/logo.png",['alt'=>'СтройКомДизайн']])?></a>
+                        <a href="<?=\yii\helpers\Url::home()?>"><?=\yii\bootstrap\Html::img(["/web/public/images/home/logo.png",['alt'=>'Bigbazar']])?></a>
 
                     </div>
                 </div>
                 <div class="col-sm-8">
                     <div class="shop-menu pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#" onclick="return getCart()"><i class="fa fa-shopping-cart" "></i>Корзина</a></li>
+                            <li><a href="#" onclick="return getCart()"><i class="fa fa-shopping-cart" "></i>Запомнить</a></li>
                             <?php if(!Yii::$app->user->isGuest) : ?>
                                 <li><a href="<?=\yii\helpers\Url::to(['/site/logout'])?>"><i class="fa fa-user"></i>Выход</a></li>
                             <?php endif?>
@@ -50,7 +50,7 @@
     <div class="header-bottom"><!--header-bottom-->
         <div class="container">
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-sm-9">ь
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
@@ -99,7 +99,7 @@
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="col-sm-6">
-                                    <h1><span>С</span>тройКомДизайн</h1>
+                                    <h1><span>B</span>igbazar</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                 </div>
                                 <div class="col-sm-6">
@@ -108,32 +108,23 @@
                             </div>
                             <div class="item">
                                 <div class="col-sm-6">
-                                    <h1><span>С</span>тройКомДизайн</h1>
-
+                                    <h1><span>B</span>igbazar</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
                                 </div>
                                 <div class="col-sm-6">
                                     <img src="/web/public/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-
                                 </div>
                             </div>
-
                             <div class="item">
                                 <div class="col-sm-6">
-                                    <h1><span>С</span>тройКомДизайн</h1>
-
+                                    <h1><span>B</span>igbazar</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
                                 </div>
                                 <div class="col-sm-6">
                                     <img src="/web/public/images/home/girl3.jpg" class="girl img-responsive" alt="" />
-
                                 </div>
                             </div>
-
                         </div>
-
                         <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
                             <i class="fa fa-angle-left"></i>
                         </a>
