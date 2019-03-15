@@ -16,7 +16,7 @@ use yii\helpers\Html;
             <div class="product-image-wrapper">
                 <div class="single-products">
                     <div class="productinfo text-center">
-                        <a href="<?=Url::toRoute(['/product/view','id'=>$product->id])?>"><?=Html::img($product->getImage(),['width'=>250 , 'height'=>250])?></a>
+                        <a href="<?=Url::toRoute(['/product/view','id'=>$product->id])?>"><?=Html::img($product->getImage(),['width'=>250 , 'height'=>150])?></a>
 <!--                        <h2>--><?//=$product->price?><!--</h2>-->
                         <p><a href="<?=Url::toRoute(['/product/view','id'=>$product->id])?>">
 						<?php if(strlen($product->name) >= 23){

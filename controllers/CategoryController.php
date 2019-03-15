@@ -21,7 +21,7 @@ class CategoryController extends AppController{
         $this->setMeta('BIGBAZAR');
         $query = Product::find();
         $count = $query->count();
-        $pages = new Pagination(['totalCount'=>$count, 'pageSize'=>66]);
+        $pages = new Pagination(['totalCount'=>$count, 'pageSize'=>60]);
         $products = $query->offset($pages->offset)->limit($pages->limit)->all();
         return $this->render('index',['products'=>$products,'pages'=>$pages]);
     }
@@ -31,7 +31,7 @@ class CategoryController extends AppController{
         $id = Yii::$app->request->get('id');
         $query = Product::find()->where(['category_id'=>$id]);
         $count = $query->count();
-        $pages = new Pagination(['totalCount'=>$count, 'pageSize'=>8   ]);
+        $pages = new Pagination(['totalCount'=>$count, 'pageSize'=>24]);
         $products = $query->offset($pages->offset)->limit($pages->limit)->all();
         $category =Category::findOne($id);
         $this->setMeta('BIGBAZAR | '.$category->name,$category->keywords,$category->description );
