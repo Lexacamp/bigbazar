@@ -278,6 +278,21 @@ a#scrollUp i{
   background-repeat: no-repeat;
   background-position: 20px;
 }
+.search_button {
+  background: #F0F0E9;
+  border: medium none;
+  color: #B2B2B2;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 300;
+  height: 35px;
+  outline: medium none;
+  padding-left: 35px;
+  width: 450px;
+  background-image: url(../images/home/searchicon.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
+}
 
 
 /*  Dropdown menu*/
